@@ -7,7 +7,8 @@ pygmentsstyle = "monokai"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-paginate=5 # articles per page
+[pagination]
+pagerSize = 5 # articles per page
 
 [params]
 	mode="auto" # color-mode → light,dark or auto
@@ -20,6 +21,7 @@ paginate=5 # articles per page
 
 [[params.social]]
 name = "GitHub"
+
 icon = "github"
 url = "https://github.com/teejas"
 
