@@ -2,7 +2,6 @@ baseURL = "https://tejas.wtf/"
 languageCode = "en-us"
 title = "Tejas Siripurapu"
 theme = "archie"
-copyright = "© Athul"
 # Code Highlight
 pygmentsstyle = "monokai"
 pygmentscodefences = true
@@ -13,7 +12,7 @@ paginate=5 # articles per page
 [params]
 	mode="auto" # color-mode → light,dark or auto
 	useCDN=false # don't use CDNs for fonts and icons, instead serve them locally.
-	subtitle = "Writing from a [Coder](https://github.com/teejas)"
+	subtitle = "I'd rather be [building](https://github.com/teejas)"
 	mainSections = ['notebooks', 'posts', 'blog', 'docs', 'post', 'notebook']
 
 
