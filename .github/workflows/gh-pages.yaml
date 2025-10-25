@@ -1,10 +1,10 @@
 name: github pages
 
-on:
-  push:
-    branches:
-      - main  # Set a branch to deploy
-  pull_request:
+on: # disabled in favor of cloudflare pages
+  # push:
+  #   branches:
+  #     - main  # Set a branch to deploy
+  # pull_request:
 
 jobs:
   deploy:
